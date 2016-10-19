@@ -1,0 +1,74 @@
+body {
+    font-family: 'Crimson Text', serif;
+    margin: 0;
+  background-image: url('new_year_background.png');
+  background-repeat: repeat;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    background-color: rgb(36, 25, 25)
+}
+
+
+/* This is comment is here to show
+that I know how to comment in CSS*/
+
+header h1 {
+    line-height: center;
+    text-align: center;
+    margin: 0;
+    color: rgb(255, 255, 255)
+}
+
+main h2, h3, a {
+    text-align: center;
+}
+
+main h2, h3, p {
+    color: rgb(36, 25, 25)
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    color: green;
+}
+
+a:active {
+    color: pink;
+}
+
+footer {
+    height: 80px;
+    width: 100%;
+    background-color: rgb(36, 25, 25)
+}
+
+footer p {
+    text-align: right;
+    margin: 0;
+    color: rgb(255, 255, 255)
+}
+
+#wrapper {
+    width: 600px;
+    margin: 0 auto;
+}
+
+#linkWrapper {
+    margin: 0 auto;
+    width: 40%;
+    /*top right bottom left*/
+}
